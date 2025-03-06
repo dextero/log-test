@@ -4,5 +4,5 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-android_logger = { path = "../android_logger-rs", features = ["android-api-30"] }
+android_logger = { git = "https://github.com/rust-mobile/android_logger-rs", features = ["android-api-30"] }
 log = "0.4.26"
